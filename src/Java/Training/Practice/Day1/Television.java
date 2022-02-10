@@ -1,16 +1,20 @@
 package Java.Training.Practice.Day1;
 
 public class Television {
-}
+    //states
 
-//states
-
-//brand
-//size
-//screen
-//version
-//price
-//color
+    //brand
+    String name;
+    //size
+    int size;
+    //screen
+    int screen;
+    //version
+    float version;
+    //price
+    float price;
+    //color
+    String color;
 
 //behaviors
 
@@ -20,4 +24,4 @@ public class Television {
 //connects to internet
 //shuts off
 
-
+}
