@@ -1,37 +1,96 @@
 package Java.Training.Practice.Day1;
 
 public class Account {
+
     //states
 
     //account number
-    String accounNumber;
+    private String accountNumber;
     //account name
-    String accountName;
+   private String accountName;
     //account type
-    String accountType;
+    private String accountType;
     //amount
-    double amount;
+    private double amount;
     //interest rate
-    float INTEREST_RATE;
+    private float INTEREST_RATE = 7.05f;
     //KYC data
-    String address;
-    String socialSecurityNumber;
-    String phoneNumber;
+    private String address;
+    private String  socialSecurityNumber;
+    private String  phoneNumber;
 
-    //behaviour
+    //Getter and Setter
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public String getAccountName() {
+        return accountName;
+    }
+
+    public void setAccountName(String accountName) {
+        this.accountName = accountName;
+    }
+
+    public String getAccountType() {
+        return accountType;
+    }
+
+    public void setAccountType(String accountType) {
+        this.accountType = accountType;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getSocialSecurityNumber() {
+        return socialSecurityNumber;
+    }
+
+    public void setSocialSecurityNumber(String socialSecurityNumber) {
+        this.socialSecurityNumber = socialSecurityNumber;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+}
+
+
+    //Behaviors
 
     //open account
-    void openAccount (String accountName, String accountType, double amount, String address, String socialSecurityNumber, String phoneNumber) {}
+    // void openAccount (String accountNumber, String accountType,String socialSecurityNumber, String phoneNumber) {}
     //transfer balance
-    boolean transferBalance (String accountFrom, String accountTo, double amoutToTransfer) {
-        return true;
-    }
+     //boolean transferBalance(String accountFrom,double amountTo, String accountTo) {return true;}
     //add interest
-    void addIntest(String accounNumber){}
+    //void addInterest (String accountNumber) {}
     //deposit amount
-    void depositAmount(String accounNumber, String depositToBeDeposited) {}
+    //void depositAmont (String accountNumber, double amountToBeDeposited) {}
     //close account
-    boolean closeAccount(String accounNumber) {
-    return true;
-    }
-}
+    //boolean closeAccount (String accountNumber) {return true;}
+
+

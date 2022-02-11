@@ -1,4 +1,4 @@
-package Java.Training.Practice;
+package Java.Training.Practice.Day1;
 
 public class Welcome {
     public static void main(String[] args) {
