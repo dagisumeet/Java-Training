@@ -77,20 +77,20 @@ public class Account {
         this.phoneNumber = phoneNumber;
     }
 
-}
+
 
 
     //Behaviors
 
     //open account
-    // void openAccount (String accountNumber, String accountType,String socialSecurityNumber, String phoneNumber) {}
+    public void openAccount (String accountNumber, String accountType,String socialSecurityNumber, String phoneNumber) {}
     //transfer balance
-     //boolean transferBalance(String accountFrom,double amountTo, String accountTo) {return true;}
+    public boolean transferBalance(String accountFrom,double amountTo, String accountTo) {return true;}
     //add interest
-    //void addInterest (String accountNumber) {}
+    public void addInterest (String accountNumber) {}
     //deposit amount
-    //void depositAmont (String accountNumber, double amountToBeDeposited) {}
+    public void depositAmont (String accountNumber, double amountToBeDeposited) {}
     //close account
-    //boolean closeAccount (String accountNumber) {return true;}
-
+    public boolean closeAccount (String accountNumber) {return true;}
+}
 
