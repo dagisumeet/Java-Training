@@ -10,7 +10,7 @@ public class school {
 
         Staff staff = new Staff();
         staff.setName("EDF");
-        staff.setAge("35");
+        staff.setAge(35);
 
 
     }
