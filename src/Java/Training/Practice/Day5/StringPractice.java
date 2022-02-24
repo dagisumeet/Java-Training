@@ -51,6 +51,47 @@ public class StringPractice {
         Logger.getGlobal().info(String.valueOf(trimmedString.isBlank()));
 
 
+        String one = "one";
+        String anotherOne = "one";
+
+        String differentOne = "one two".substring(0,3);
+
+        // Equal method practice
+
+        Logger.getGlobal().info(String.valueOf(one == differentOne));
+        Logger.getGlobal().info(String.valueOf(one.equals(differentOne)));
+
+        String dirtyString = "Sumit&Dagi";
+        // replace method
+
+        String cleanString = dirtyString.replace("&", " ");
+        Logger.getGlobal().info(cleanString);
+        // split method
+        String commaSeperatedString = "Sumit,Dagi";
+        String [] seperatedStringArray =commaSeperatedString.split(",");
+        Logger.getGlobal().info(seperatedStringArray[0]);
+        Logger.getGlobal().info(seperatedStringArray[1]);
+
+        // String Builder Pattern ( we have to use this method instead of "+" method coz it creates only one object)
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("I");
+        stringBuilder.append(" ");
+        stringBuilder.append("am");
+        stringBuilder.append(" ");
+        stringBuilder.append("Java");
+        stringBuilder.append(" ");
+        stringBuilder.append("Student");
+
+        String concatString = stringBuilder.toString();
+        Logger.getGlobal().info(concatString);
+
+
+
+
+
+
+
+
 
 
 

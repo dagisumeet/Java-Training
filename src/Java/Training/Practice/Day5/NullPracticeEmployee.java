@@ -1,9 +1,10 @@
 package Java.Training.Practice.Day5;
 
 import java.time.LocalDate;
+import java.util.Objects;
 import java.util.logging.Logger;
 
-public class Employee {
+public class NullPracticeEmployee {
 
     public boolean getAge;
     private String name; //requried
@@ -12,14 +13,14 @@ public class Employee {
     private int age;
 
 
-    public Employee(String name, String  salary, LocalDate joiningDate){
+        public NullPracticeEmployee(String name, String  salary, LocalDate joiningDate){
         Logger.getGlobal().info(name);
         Logger.getGlobal().info(String.valueOf(salary));
         Logger.getGlobal().info(String.valueOf(joiningDate));
 
-        this.name = name;
+        this.name= Objects.requireNonNullElse(name, "unknown");
         this.salary = salary;
-        this.joiningDate = joiningDate;
+        this.joiningDate = Objects.requireNonNullElse(joiningDate, LocalDate.now());;
     }
 
     public String getName() {
