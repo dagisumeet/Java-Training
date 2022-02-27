@@ -83,7 +83,7 @@ public class Account {
     //Behaviors
 
     //open account
-    public void openAccount (String accountNumber, String accountType,String socialSecurityNumber, String phoneNumber) {}
+    public void openAccount (String  accountNumber, String accountType,String socialSecurityNumber, String phoneNumber) {}
     //transfer balance
     public boolean transferBalance(String accountFrom,double amountTo, String accountTo) {return true;}
     //add interest
@@ -93,7 +93,7 @@ public class Account {
     //close account
     public boolean closeAccount (String accountNumber) {return true;}
 
-    jjklsjfjas;df
+    //jjklsjfjas;df
 
 }
 
