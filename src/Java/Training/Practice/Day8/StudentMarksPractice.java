@@ -28,6 +28,17 @@ public class StudentMarksPractice {
         Logger.getGlobal().info(String.valueOf("Social marks=" + social));
         Logger.getGlobal().info(String.valueOf("Percentage =" + percentage));
 
+        if(percentage >= 80)
+        {
+            Logger.getGlobal().info("Congratulations you have passed with distinction.");
+        }
+        else if (percentage > 60)
+        {Logger.getGlobal().info("Congratulations you have passed with first division.");}
+        else if (percentage >= 40)
+        {Logger.getGlobal().info("Congratulations you have passed second division.");}
+        else
+        {Logger.getGlobal().info("You have failed.");}
+
 
 
 
