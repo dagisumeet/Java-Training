@@ -22,8 +22,8 @@ public class IfElsePracticeAssignment {
         if (k>i && k>j)
         {Logger.getGlobal().info("k is greater.");}
 
-        String greatestValue= String.format("Greatest value is %d",i,j,k);
-        Logger.getGlobal().info(String.valueOf(greatestValue));
+//        String greatestValue= String.format("Greatest value is %d",i,j,k);
+        Logger.getGlobal().info(String.format("Greatest value is %d",i,j,k));
 
 
     }
