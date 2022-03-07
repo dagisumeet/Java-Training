@@ -16,18 +16,11 @@ public class StudentArrayPractice {
 //        System.out.println(strings[index]);
 //        }
 
-        String images [] = new String[8];
-        images[0] = "A";
-        images[1] = "B";
-        images[2] = "C";
-        images[3] = "D";
-        images[4] = "E";
-        images[5] = "F";
-        images[6] = "G";
-        images[7] = "H";
+        String []studentIDLogos= {"Image A", "Image B", "Image C", "Image D", "Image E","Image F", "Image G", "Image F" };
+
         for(int index = 0; index < 8; index ++ ){
 
-            System.out.println(images[index]);
+            System.out.println(studentIDLogos[index]);
         }
     }
 
