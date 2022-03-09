@@ -1,4 +1,4 @@
-package Java.Training.Practice.Day11;
+package Java.Training.Practice.Day10;
 
 import java.util.logging.Logger;
 
