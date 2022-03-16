@@ -1,7 +1,6 @@
-package Java.Training.Practice.Inheritance;
+package Java.Training.Practice.Day14;
 
 import java.time.LocalDate;
-import java.util.Locale;
 
 public class Employee {
     private String name;
