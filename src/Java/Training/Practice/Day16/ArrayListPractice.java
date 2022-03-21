@@ -10,17 +10,20 @@ public class ArrayListPractice {
         Employee[] employees1 = new Employee[20]; // This is the syntax of regular array. But, arraylist is way better in terms of usages.
 
 
-        employees.add(new Employee("sumit", 25000, "9842133614", "Male"));
-        employees.add(new Employee("sumit", 25000, "9842133614", "Male"));
-        employees.add(new Employee("sumit", 25000, "9842133614", "Male"));
+        employees.add(new Employee("sumit", 15000, "9842133614", "Male"));
+        employees.add(new Employee("Gopal", 2000, "9845633614", "Male"));
+        employees.add(new Employee("Hari", 25000, "98421314", "Male"));
 
 
-        System.out.println(employees);
+//        System.out.println(employees);
 
         System.out.println("####################### After Removal ##############################");
 
-        System.out.println(employees.remove(1)); // .remove will remove the data located in a particular index. We hvae to mentioin which index data we want to remove.
+//        System.out.println(employees.remove(1)); // .remove will remove the data located in a particular index. We hvae to mentioin which index data we want to remove.
 
+        Employee employee = employees.get(1);
+
+        System.out.println(employee);
 
 
 
