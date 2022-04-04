@@ -2,7 +2,7 @@ package Java.Training.Practice.Day26;
 
 import java.util.Objects;
 
-public class Student {
+public class Student implements Comparable<Student> {
     private String name;
     private int rollnumber;
 
@@ -30,5 +30,11 @@ public class Student {
     @Override
     public int hashCode() {
         return Objects.hash(name, rollnumber);
+    }
+
+
+    @Override
+    public int compareTo(Student o) {
+        return o.name.compareTo(this.name);
     }
 }
